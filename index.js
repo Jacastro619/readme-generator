@@ -80,7 +80,7 @@ function init() {
   // take what was returned from generatemarkdown and pass it to writetofile function
   inquirer.prompt(questions).then((data) => {
     console.log(data);
-    writeToFile("readme.md", data);
+    writeToFile("readme.new.md", data);
   });
 }
 // Function call to initialize app
