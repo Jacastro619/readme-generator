@@ -1,6 +1,11 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  //![Static Badge](https://img.shields.io/badge/license-MIT-blue)
+  //![Static Badge](https://img.shields.io/badge/license-Apache_License_2.0-blue)
+  //![Static Badge](https://img.shields.io/badge/license-GNU_Affero_General_Public_License_v3.0-blue)
+  // ![Static Badge](https://img.shields.io/badge/license-Mozilla_Public_License_2.0-blue)
+}
 // create a conditional to see if license exist
 
 // TODO: Create a function that returns the license link
