@@ -1,8 +1,8 @@
-# ReadMe Generator ![Static Badge](https://img.shields.io/badge/license-Apache_License_2.0-blue)
+# ReadMe Generator ![Static Badge](https://img.shields.io/badge/license-MIT-blue)
 
 ## Description
 
-This will generate a professional readme for your project based on your inputs
+This is a readme generator. This will create a readme.md file based on the users responses to a series of questions. Run node on the terminal and enjoy!
 
 ## Table of Contents
 * [Installation](#installation)
@@ -14,23 +14,23 @@ This will generate a professional readme for your project based on your inputs
 
 ## Installation
 
-Simply use the node command in the command line
+Assuming the user cloned this repository onto their local machine, open the index.js file. For installation, make sure node.js is installed. Then in the terminal run 'node index.js'.
 
 ## Usage
 
-Answer all prompts appropiatley for best results
+Once the user runs 'node index.js', the user will be asked a series of questions. For best results, the user should answer each question accordingly. Once all questions have been answered, the readme.md file will be created based on the users responses.
 
 ## Contributing
 
-There are no contribution guidelines
+There are no contribution guidelines for this project.
 
 ## Tests
 
-There are no tests for the project
+There are no tests for this project
 
 ## License 
 
-This project is covered under the Apache License 2.0 license. For more information about license click [HERE](https://apache.org/licenses/LICENSE-2.0)
+This project is covered under the MIT License. For more information about license go to [https://mit-license.org/](https://mit-license.org/)
 
 ## Questions
 

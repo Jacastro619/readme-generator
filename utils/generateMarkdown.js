@@ -1,12 +1,8 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  //![Static Badge](https://img.shields.io/badge/license-MIT-blue)
-  //![Static Badge](https://img.shields.io/badge/license-Apache_License_2.0-blue)
-  //![Static Badge](https://img.shields.io/badge/license-GNU_Affero_General_Public_License_v3.0-blue)
-  // ![Static Badge](https://img.shields.io/badge/license-Mozilla_Public_License_2.0-blue)
+  // create a conditional to see if license exist
   switch (license.license) {
-    case "MIT":
+    case "MIT License":
       return `![Static Badge](https://img.shields.io/badge/license-MIT-blue)`;
       break;
     case "Apache License 2.0":
@@ -22,13 +18,13 @@ function renderLicenseBadge(license) {
       return "";
   }
 }
-// create a conditional to see if license exist
 
-// TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
+  // create a conditional to see if license exist
+  // return the physicall link of the license
   switch (license.license) {
-    case "MIT":
+    case "MIT License":
       return `https://mit-license.org/`;
       break;
     case "Apache License 2.0":
@@ -44,27 +40,23 @@ function renderLicenseLink(license) {
       return "";
   }
 }
-// create a conditional to see if license exist
-// return the physicall link of the license
 
-// TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
+  // create a conditional to see if license exist
+  // call renderlicenseBadge function
+  // return template literal to format license section
   if (!license.license) {
     return "";
   } else {
     return `This project is covered under the ${
       license.license
-    } license. For more information about license click [HERE](${renderLicenseLink(
+    }. For more information about license go to [${renderLicenseLink(
       license
-    )})`;
+    )}](${renderLicenseLink(license)})`;
   }
 }
-// create a conditional to see if license exist
-// call renderlicenseBage and renderLicenseBage functions
-// return template literal to format license section
 
-// TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   // take answers and plug it in to the template literal as a mark down structure
   // you may call appropiate fuinctions in template literal
