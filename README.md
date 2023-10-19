@@ -1,17 +1,16 @@
-# ReadMe Generator
+# ReadMe Generator  ![Static Badge](https://img.shields.io/badge/license-MIT-blue)
 
 ## Description
 
-This will generate a readme.md file for your projects
+This will generate a readme from user input
 
 ## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [License](#license)
-- [Questions](#questions)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [License](#license)
+* [Questions](#questions)
 
 ## Installation
 
@@ -19,19 +18,19 @@ simply use node in command line
 
 ## Usage
 
-Answer the prompts appropiately for best results
+answer all prompts accordingly 
 
 ## Contributing
 
-There are no contribution guidelines
+there are no contribution guidelines
 
 ## Tests
 
-There are no tests for the project
+there are no tests in this project
 
-## License
+## License 
 
-l1
+This project is covered under the MIT license. For more information about license click [HERE](https://mit-license.org/)
 
 ## Questions
 
