@@ -22,6 +22,42 @@ function generateMarkdown(data) {
   // you may call appropiate fuinctions in template literal
   return `# ${data.title}
 
+## Description
+
+${data.description}
+
+## Table of Contents
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [License](#license)
+* [Questions](#questions)
+
+## Installation
+
+${data.installation}
+
+## Usage
+
+${data.usage}
+
+## Contributing
+
+${data.contribution}
+
+## Tests
+
+${data.test}
+
+## License 
+
+${data.license}
+
+## Questions
+
+If there are additional questions, you may contact me at ${data.email} or visit my [GitHub](https://github.com/${data.username})
 `;
 }
 
