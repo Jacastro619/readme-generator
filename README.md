@@ -9,6 +9,8 @@
 
 ## Description
 
+For a brief demo of project click [HERE](https://drive.google.com/file/d/1hM0jE08pmVB8HhH237MQPArBo-Xv3sLQ/view?usp=sharing)
+
 This is a readme generator. This will create a readme.md file based on the users responses to a series of questions. Run 'node index.js' on the terminal and enjoy!
 
 ## Table of Contents
@@ -20,7 +22,7 @@ This is a readme generator. This will create a readme.md file based on the users
 
 ## Installation
 
-Assuming the user cloned this repository onto their local machine, open the index.js file. For installation, make sure node.js is installed. Then, in the terminal run 'node index.js'.
+Assuming the user cloned this repository onto their local machine, open the index.js file. For installation, make sure node.js is installed. Run the 'npm install' command in terminal to install dependencies. Then, in the terminal run 'node index.js'.
 
 ## Usage
 
